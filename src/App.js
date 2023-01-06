@@ -8,7 +8,7 @@ function App() {
    <BrowserRouter>
       <Box sx ={{backgroundColor: '#000'}}>
         <Routes>
-          <Route path />
+          <Route path = "/" exact element={<Feed />}  />
         </Routes>
       </Box>
    </BrowserRouter>
